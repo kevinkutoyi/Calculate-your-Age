@@ -6,7 +6,13 @@
 #title{
     text-align: center;
 }
-.age{
+.years{
+    text-align: center;
+}
+#months-button{
+    text-align: center;
+}
+#months{
     text-align: center;
 }
 #my-button{
