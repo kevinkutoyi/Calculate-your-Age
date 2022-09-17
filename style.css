@@ -15,7 +15,13 @@
 #weeks-button{
     text-align: center;
 }
+#days-button{
+    text-align: center;
+}
 #weeks{
+    text-align: center;
+}
+#days{
     text-align: center;
 }
 #months{
