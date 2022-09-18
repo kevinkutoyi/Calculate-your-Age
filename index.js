@@ -26,11 +26,11 @@ function weeksFunction() {
     } weeks old`;
   }
 }
-function weeksFunction() {
+function daysFunction() {
   var birthYear = prompt("Enter your birth year");
   if (birthYear != null) {
     weeks.innerHTML = `You are ${
       (date.getFullYear() - birthYear) * 52
-    } weeks old`;
+    } days old`;
   }
 }
