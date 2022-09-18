@@ -2,6 +2,7 @@
 let years = document.getElementById("years");
 let months = document.getElementById("months");
 let weeks = document.getElementById("weeks");
+let days = document.getElementById("days");
 var date = new Date();
 // myDate.innerHTML = date.getFullYear();
 function myFunction() {
@@ -29,7 +30,7 @@ function weeksFunction() {
 function daysFunction() {
   var birthYear = prompt("Enter your birth year");
   if (birthYear != null) {
-    weeks.innerHTML = `You are ${
+    days.innerHTML = `You are ${
       (date.getFullYear() - birthYear) * 365
     } days old`;
   }
