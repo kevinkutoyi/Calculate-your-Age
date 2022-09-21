@@ -3,7 +3,7 @@ let years = document.getElementById("years");
 let months = document.getElementById("months");
 let weeks = document.getElementById("weeks");
 let days = document.getElementById("days");
-let hrs = document.getElementById("hrss");
+let hrs = document.getElementById("hrs");
 var date = new Date();
 // myDate.innerHTML = date.getFullYear();
 function myFunction() {
@@ -40,7 +40,7 @@ function hrsFunction() {
   var birthYear = prompt("Enter your birth year");
   if (birthYear != null) {
     hrs.innerHTML = `You are ${
-      ((date.getFullYear() - birthYear) * 365) * 24
+      (date.getFullYear() - birthYear) * 365 * 24
     } hours old`;
   }
 }
