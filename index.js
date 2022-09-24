@@ -4,12 +4,15 @@ let months = document.getElementById("months");
 let weeks = document.getElementById("weeks");
 let days = document.getElementById("days");
 let hrs = document.getElementById("hrs");
+let name = document.getElementById("name");
 var date = new Date();
 // myDate.innerHTML = date.getFullYear();
 function myFunction() {
   var birthYear = prompt("Enter your birth year");
   if (birthYear != null) {
-    years.innerHTML = `You are ${date.getFullYear() - birthYear} years old`;
+    years.innerHTML = `Hello ${name.value}, You are ${
+      date.getFullYear() - birthYear
+    } years old`;
   }
 }
 function yearFunction() {

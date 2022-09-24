@@ -18,6 +18,19 @@
     text-align: center;
     min-width: 200px;
 }
+#my-form{
+    text-align: center;
+}
+#name{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+}
+#my-btn{
+    margin-top: 3px;
+    padding: 4px;
+}
 .years, #months-button, #weeks-button,
 #days-button,#hrs-button, #hrs, #weeks, #days, #months, #my-button{
     text-align: center;
