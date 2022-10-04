@@ -4,6 +4,7 @@ let months = document.getElementById("months");
 let weeks = document.getElementById("weeks");
 let days = document.getElementById("days");
 let hrs = document.getElementById("hrs");
+let mins = document.getElementById("mins");
 let name = document.getElementById("name");
 var date = new Date();
 // myDate.innerHTML = date.getFullYear();
@@ -45,5 +46,13 @@ function hrsFunction() {
     hrs.innerHTML = `You are ${
       (date.getFullYear() - birthYear) * 365 * 24
     } hours old`;
+  }
+}
+function minsFunction() {
+  var birthYear = prompt("Enter your birth year");
+  if (birthYear != null) {
+    mins.innerHTML = `You are ${
+      (date.getFullYear() - birthYear) * 365 * 24 * 60
+    } minutes old`;
   }
 }

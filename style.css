@@ -31,7 +31,7 @@
     padding: 4px;
 }
 .years, #months-button, #weeks-button,
-#days-button,#hrs-button, #hrs, #weeks, #days, #months, #my-button{
+#days-button,#hrs-button, #hrs, #weeks, #days, #months, #minutes-button, #mins, #my-button{
     text-align: center;
 }
 #btn{
