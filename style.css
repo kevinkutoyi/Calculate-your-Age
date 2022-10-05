@@ -17,6 +17,10 @@
     text-align: center;
     min-width: 200px;
 }
+#tarehe{
+    text-align: center;
+    padding: 7px;
+}
 #my-form{
     text-align: center;
 }

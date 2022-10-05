@@ -6,6 +6,7 @@ let hrs = document.getElementById("hrs");
 let mins = document.getElementById("mins");
 var name = document.getElementById("name");
 var date = new Date();
+document.getElementById("tarehe").innerHTML = date;
 // myDate.innerHTML = date.getFullYear();
 function myFunction() {
   var birthYear = prompt("Enter your birth year");
