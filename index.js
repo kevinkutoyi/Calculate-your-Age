@@ -1,6 +1,3 @@
-// const { name } = require("tar/lib/types");
-
-// let myDate = document.getElementById("my-date");
 let years = document.getElementById("years");
 let months = document.getElementById("months");
 let weeks = document.getElementById("weeks");
